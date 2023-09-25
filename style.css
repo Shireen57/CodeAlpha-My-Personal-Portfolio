@@ -379,7 +379,7 @@
     line-height: 2;
     margin: 0 auto;
     text-align: center;
-    overflow: hidden;
+    overflow: scroll;
     animation: bounce 1.5s infinite;
   }
   .main {
