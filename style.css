@@ -551,11 +551,25 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   color: white;
 }
 .center-item{
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 70%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 450px;
   display: table;
-  width: 656px; 
+  position: relative;
+  left: 8em;
+ 
+  animation: bounce 1.5s infinite; */
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-width: 1200px; */
+  margin-block: 2rem;
+  gap: 2rem;
   animation: bounce 1.5s infinite;
+  max-width: 656px; /* Set your desired max-width */
+  margin: 0 auto; /* Auto margin for horizontal centering */
 }
 
 .html {width: 90%; background-color: #04AA6D;}
