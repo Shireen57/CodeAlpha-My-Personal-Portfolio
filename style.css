@@ -370,7 +370,12 @@
 
 /* Create two equal columns that float next to each other */
 .column-2 {
-    width: 70%;
+  background-color:#ddd;
+  padding-left: 40px;
+    padding-right: 40px; 
+    max-width: 656px;
+    overflow: scroll;
+    /* width: 70%;
     padding: 40px;
     padding-left: 70px;
     padding-right: 70px;
@@ -379,8 +384,8 @@
     line-height: 2;
     margin: 0 auto;
     text-align: center;
-    overflow: scroll;
-    animation: bounce 1.5s infinite;
+   
+    animation: bounce 1.5s infinite; */
   }
   .main {
     display: flex;
