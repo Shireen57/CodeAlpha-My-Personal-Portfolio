@@ -602,3 +602,8 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.mainhead{
+  border-bottom: 5px solid;
+  border-color: dodgerblue;
+  font-family: cursive;
+}
